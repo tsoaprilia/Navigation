@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_nama_list_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#BA000000"
+        android:textSize="15sp"
+        tools:text="Rofico Ahmad" />
+
+    <TextView
+        android:id="@+id/tv_nominal_list_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nama_list_history"
+        android:layout_marginTop="5dp"
+        android:textColor="#EC1515"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="Rp.120000" />
+
+    <TextView
+        android:id="@+id/tv_tanggal_list_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#86000000"
+        android:textSize="15sp"
+        tools:text="01/06/2021" />
+
+
+</RelativeLayout>

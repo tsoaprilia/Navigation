@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#5C1515</color>
+    <color name="primary">#BD1111</color>
+    <color name="blue">#159EEC</color>
+    <color name="medium">#f25b5b</color>
+    <color name="light">#f68a8a</color>
+    <color name="lighter">#fde8e8</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#2d2d2d</color>
+    <color name="grey">#7d7d7d</color>
+    //indicator color
+    <color name="inactive">#CDCDCD</color>
+    <color name="active">#529FF9</color>
+</resources>
